@@ -18,6 +18,90 @@ if os.path.exists("/home/vegasranks/vegasranks"):
 	# if on linux aka prod
 	prefix = "/home/vegasranks/vegasranks/"
 
+def convertDecOdds(odds):
+	if odds == 0:
+		return 0
+	if odds > 0:
+		decOdds = 1 + (odds / 100)
+	else:
+		decOdds = 1 - (100 / odds)
+	return decOdds
+
+def convertAmericanOdds(avg):
+	if avg >= 2:
+		avg = (avg - 1) * 100
+	else:
+		avg = -100 / (avg - 1)
+	return round(avg)
+
+def averageOdds(odds):
+	avgOver = []
+	avgUnder = []
+	for o in odds:
+		if o and o != "-" and o.split("/")[0] != "-":
+			avgOver.append(convertDecOdds(int(o.split("/")[0])))
+			if "/" in o:
+				avgUnder.append(convertDecOdds(int(o.split("/")[1])))
+
+	if avgOver:
+		avgOver = float(sum(avgOver) / len(avgOver))
+		avgOver = convertAmericanOdds(avgOver)
+	else:
+		avgOver = "-"
+	if avgUnder:
+		avgUnder = float(sum(avgUnder) / len(avgUnder))
+		avgUnder = convertAmericanOdds(avgUnder)
+	else:
+		avgUnder = "-"
+
+	ou = f"{avgOver}/{avgUnder}"
+	if ou.endswith("/-"):
+		ou = ou.split("/")[0]
+	return ou
+
+def getFairValue(ou, method=None):
+	over = int(ou.split("/")[0])
+	if over > 0:
+		impliedOver = 100 / (over+100)
+	else:
+		impliedOver = -1*over / (-1*over+100)
+
+	# assume 7.1% vig if no under
+	if "/" not in ou:
+		u = 1.071 - impliedOver
+		if u > 1:
+			return
+		if over > 0:
+			under = int((100*u) / (-1+u))
+		else:
+			under = int((100 - 100*u) / u)
+	else:
+		under = int(ou.split("/")[1])
+
+	if under > 0:
+		impliedUnder = 100 / (under+100)
+	else:
+		impliedUnder = -1*under / (-1*under+100)
+
+	# power method
+	x = impliedOver
+	y = impliedUnder
+	while round(x+y, 8) != 1.0:
+		k = math.log(2) / math.log(2 / (x+y))
+		x = x**k
+		y = y**k
+
+	mult = impliedOver / (impliedOver + impliedUnder)
+	add = impliedOver - (impliedOver+impliedUnder-1) / 2
+	implied = min(x,mult,add)
+	if method == "mult":
+		return mult
+	elif method == "add":
+		return add
+	elif method == "power":
+		return x
+	return implied
+
 @nfl_blueprint.route('/getVegasRanks')
 def getVegasRanks_route():
 	propArg = request.args.get("prop")
