@@ -188,8 +188,6 @@ def getVegasRanks_route():
 	reddit = ""
 	ranksTable = {}
 	for pos in ["ALL", "QB", "RB", "WR", "TE"]:
-		if pos != propArg.upper():
-			continue
 		output = "\tPTS\tFPros\tPLAYER\tOPP"
 		reddit += "PTS|PLAYER"
 		props = ["attd", "rec", "rec_yd"]
@@ -251,10 +249,10 @@ def ranks_route():
 def analyze_route():
 	week = "3"
 
-	with open("static/nfl/stats.json") as fh:
+	with open(f"{prefix}static/nfl/stats.json") as fh:
 		stats = json.load(fh)
 
-	with open("static/nfl/roster.json") as fh:
+	with open(f"{prefix}static/nfl/roster.json") as fh:
 		roster = json.load(fh)
 
 	ecr = getECR(week)
@@ -419,7 +417,7 @@ def getVegas(week):
 	with open(f"{prefix}static/nfl/historical/wk{week}/ranksData.json") as fh:
 		data = json.load(fh)
 
-	with open(f"static/nfl/roster.json") as fh:
+	with open(f"{prefix}static/nfl/roster.json") as fh:
 		roster = json.load(fh)
 
 	with open(f"{prefix}static/nfl/historical/wk{week}/fpros.json") as fh:
