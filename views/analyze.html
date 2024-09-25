@@ -84,8 +84,11 @@
 			flex-direction: column;
 			justify-content: space-evenly;
 		}
+		.mean, .percErr {
+			display: none;
+		}
 		.negative { color: red; }
-		.positive { color: green; }
+		.positive { color: green; font-weight:bold; }
 
 		@media (max-width: 450px) {
 			body {
@@ -98,7 +101,10 @@
 			}
 			#propsTable {
 				height:300px;
-				width: min-content;
+				width: 100%;
+			}
+			#bestWorst, #bestTable, #worstTable {
+				width: 100%;
 			}
 
 			h4 {
@@ -111,6 +117,14 @@
 			<div id="propsTable"></div>
 			<div style="display: flex; flex-direction: column; justify-content: space-evenly;">
 				<div>
+					<div style="text-align: center; margin-bottom: 10px;">
+						<input type="radio" name="stat" id="median" checked onChange="changeStat(this)" />
+						<label for="median">Median</label>
+						<input type="radio" name="stat" id="mean" onChange="changeStat(this)" />
+						<label for="mean">Mean</label>
+						<input type="radio" name="stat" id="percErr" onChange="changeStat(this)" />
+						<label for="percErr">% Err</label>
+					</div>
 					<h4>Median Difference btwn Actual ranks</h4>
 					<table>
 						<tr>
@@ -121,8 +135,12 @@
 						{% for pos in posStatistics %}
 							<tr>
 								<td>{{pos}}</td>
-								<td>{{posStatistics[pos]["vegasMedian"]}}</td>
-								<td>{{posStatistics[pos]["ecrMedian"]}}</td>
+								<td class="stat median">{{posStatistics[pos]["vegasMedian"]}}</td>
+								<td class="stat median">{{posStatistics[pos]["ecrMedian"]}}</td>
+								<td class="stat mean">{{posStatistics[pos]["vegasMean"]}}</td>
+								<td class="stat mean">{{posStatistics[pos]["ecrMean"]}}</td>
+								<td class="stat percErr">{{posStatistics[pos]["vegasPercErr"]}}</td>
+								<td class="stat percErr">{{posStatistics[pos]["ecrPercErr"]}}</td>
 							</tr>
 						{% endfor %}
 					</table>
@@ -139,8 +157,12 @@
 						{% for pos in posStatistics %}
 							<tr>
 								<td>{{pos}}</td>
-								<td>{{posStatistics[pos]["vegasMedianPlusMinus"]}}</td>
-								<td>{{posStatistics[pos]["ecrMedianPlusMinus"]}}</td>
+								<td class="stat median">{{posStatistics[pos]["vegasMedianPlusMinus"]}}</td>
+								<td class="stat median">{{posStatistics[pos]["ecrMedianPlusMinus"]}}</td>
+								<td class="stat mean">{{posStatistics[pos]["vegasMeanPlusMinus"]}}</td>
+								<td class="stat mean">{{posStatistics[pos]["ecrMeanPlusMinus"]}}</td>
+								<td class="stat percErr">{{posStatistics[pos]["vegasMeanPlusMinusPercErr"]}}</td>
+								<td class="stat percErr">{{posStatistics[pos]["ecrMeanPlusMinusPercErr"]}}</td>
 							</tr>
 						{% endfor %}
 					</table>
@@ -244,7 +266,7 @@
 			function renderTable(prop="all", format="half") {
 				TABLE = new Tabulator("#propsTable", {
 					tooltipsHeader: true,
-					layout: "fitData",
+					layout: "fitColumns",
 					data: {{tableData|safe}},
 					//layout: window.innerWidth <= 450 ? "fitData" : "fitColumns",
 					
@@ -258,7 +280,7 @@
 						//{formatter:"rowSelection", hozAlign:"center", headerSort:false, cellClick:function(e, cell){ 	cell.getRow().toggleSelect(); }},
 						{title: "Pos", field: "pos", visible: false},
 						{title: "WK3 Rank", field: "posRank", hozAlign: "center", headerFilter: "select", headerFilterPlaceholder: "RB", headerFilterFunc: posFilter, headerFilterParams:{values:{"QB":"QB", "RB":"RB", "WR":"WR", "TE":"TE"}}},
-						{title: "Player", field: "player", headerFilter: "input"},
+						{title: "Player", field: "player", headerFilter: "input", width: 125},
 						{title: "Vegas", field: "vegas", hozAlign: "center"},
 						{title: "ECR", field: "ecr", hozAlign: "center"},
 					]
@@ -275,7 +297,7 @@
 			function renderBestTable() {
 				TABLE = new Tabulator("#bestTable", {
 					tooltipsHeader: true,
-					layout: "fitData",
+					layout: "fitColumns",
 					data: {{best|safe}},
 					//layout: window.innerWidth <= 450 ? "fitData" : "fitColumns",
 					
@@ -284,7 +306,7 @@
 					],
 					columns: [
 						{title: "WK3 Rank", field: "posRank", hozAlign: "center"},
-						{title: "Player", field: "player"},
+						{title: "Player", field: "player", width: 125},
 						{title: "Vegas", field: "vegas", hozAlign: "center"},
 						{title: "ECR", field: "ecr", hozAlign: "center"},
 					]
@@ -294,7 +316,7 @@
 			function renderWorstTable() {
 				TABLE = new Tabulator("#worstTable", {
 					tooltipsHeader: true,
-					layout: "fitData",
+					layout: "fitColumns",
 					data: {{worst|safe}},
 					//layout: window.innerWidth <= 450 ? "fitData" : "fitColumns",
 					
@@ -303,7 +325,7 @@
 					],
 					columns: [
 						{title: "WK3 Rank", field: "posRank", hozAlign: "center"},
-						{title: "Player", field: "player"},
+						{title: "Player", field: "player", width: 125},
 						{title: "Vegas", field: "vegas", hozAlign: "center"},
 						{title: "ECR", field: "ecr", hozAlign: "center"},
 					]
@@ -314,21 +336,40 @@
 			renderBestTable();
 			renderWorstTable();
 
-			for (let row of document.querySelectorAll("tr")) {
-				if (row.querySelectorAll("th").length > 0) {
-					continue;
+			function highlight(stat="") {
+				if (!stat) {
+					stat = document.querySelector("input[checked]").id;
 				}
-				let v1 = parseFloat(row.querySelectorAll("td")[1].innerText);
-				let v2 = parseFloat(row.querySelectorAll("td")[2].innerText);
-				if (v1 > v2) {
-					row.querySelectorAll("td")[2].classList.add("positive");
-				} else if (v1 < v2) {
-					row.querySelectorAll("td")[1].classList.add("positive");
-				} else {
-					row.querySelectorAll("td")[1].classList.add("positive");
-					row.querySelectorAll("td")[2].classList.add("positive");
+				for (let row of document.querySelectorAll("tr")) {
+					if (row.querySelectorAll("th").length > 0) {
+						continue;
+					}
+					let v1 = parseFloat(row.querySelectorAll("td."+stat)[0].innerText);
+					let v2 = parseFloat(row.querySelectorAll("td."+stat)[1].innerText);
+					if (v1 > v2) {
+						row.querySelectorAll("td."+stat)[1].classList.add("positive");
+					} else if (v1 < v2) {
+						row.querySelectorAll("td."+stat)[0].classList.add("positive");
+					} else {
+						row.querySelectorAll("td."+stat)[0].classList.add("positive");
+						row.querySelectorAll("td."+stat)[1].classList.add("positive");
+					}
 				}
 			}
+
+			function changeStat(el) {
+				for (e of document.querySelectorAll(".stat")) {
+					if (Array.from(e.classList).includes(el.id)) {
+						e.style.display = "table-cell";
+					} else {
+						e.style.display = "none";
+					}
+				}
+				highlight(el.id);
+			}
+
+			document.querySelector("#median").checked = true;
+			highlight();
 
 		</script>
 		{% if prop != "" %}

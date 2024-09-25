@@ -188,6 +188,8 @@ def getVegasRanks_route():
 	reddit = ""
 	ranksTable = {}
 	for pos in ["ALL", "QB", "RB", "WR", "TE"]:
+		if propArg and pos != propArg.upper():
+			continue
 		output = "\tPTS\tFPros\tPLAYER\tOPP"
 		reddit += "PTS|PLAYER"
 		props = ["attd", "rec", "rec_yd"]
@@ -249,10 +251,10 @@ def ranks_route():
 def analyze_route():
 	week = "3"
 
-	with open(f"{prefix}static/nfl/stats.json") as fh:
+	with open("static/nfl/stats.json") as fh:
 		stats = json.load(fh)
 
-	with open(f"{prefix}static/nfl/roster.json") as fh:
+	with open("static/nfl/roster.json") as fh:
 		roster = json.load(fh)
 
 	ecr = getECR(week)
@@ -262,8 +264,12 @@ def analyze_route():
 	posStatistics = {}
 	ecrDiffAll = []
 	vegasDiffAll = []
+	ecrDiffAllPercErr = []
+	vegasDiffAllPercErr = []
 	ecrDiffAllPlusMinus = []
 	vegasDiffAllPlusMinus = []
+	ecrDiffAllPlusMinusPercErr = []
+	vegasDiffAllPlusMinusPercErr = []
 	table = []
 	for pos in ["QB", "RB", "WR", "TE"]:
 		posStatistics[pos] = {}
@@ -287,8 +293,12 @@ def analyze_route():
 		
 		ecrDiff = []
 		vegasDiff = []
+		ecrDiffPercErr = []
+		vegasDiffPercErr = []
 		ecrDiffPlusMinus = []
 		vegasDiffPlusMinus = []
+		ecrDiffPlusMinusPercErr = []
+		vegasDiffPlusMinusPercErr = []
 		ecrDiffOutliers = []
 		vegasDiffOutliers = []
 		topCount = {}
@@ -323,11 +333,19 @@ def analyze_route():
 				ecrDiffPlusMinus.append(abs(rank+1 - e))
 				vegasDiffAllPlusMinus.append(abs(rank+1 - v))
 				ecrDiffAllPlusMinus.append(abs(rank+1 - e))
+				vegasDiffPlusMinusPercErr.append(abs(rank+1 - v) / (rank+1))
+				ecrDiffPlusMinusPercErr.append(abs(rank+1 - e) / (rank+1))
+				vegasDiffAllPlusMinusPercErr.append(abs(rank+1 - v) / (rank+1))
+				ecrDiffAllPlusMinusPercErr.append(abs(rank+1 - e) / (rank+1))
 
 			vegasDiff.append(abs(rank+1 - v))
 			ecrDiff.append(abs(rank+1 - e))
+			vegasDiffPercErr.append(abs(rank+1 - v) / (rank+1))
+			ecrDiffPercErr.append(abs(rank+1 - e) / (rank+1))
 			vegasDiffAll.append(abs(rank+1 - v))
 			ecrDiffAll.append(abs(rank+1 - e))
+			vegasDiffAllPercErr.append(abs(rank+1 - v) / (rank+1))
+			ecrDiffAllPercErr.append(abs(rank+1 - e) / (rank+1))
 			right.append((abs(v-e), abs(rank+1 - v), abs(rank+1 - e), v, e, pos, player, rank))
 				
 				# percErr
@@ -357,23 +375,31 @@ def analyze_route():
 		posStatistics[pos] = {
 			"vegasMedian": median(vegasDiff),
 			"vegasMean": round(avg(vegasDiff), 2),
+			"vegasPercErr": round(avg(vegasDiffPercErr), 2),
 			"ecrMedian": median(ecrDiff),
 			"ecrMean": round(avg(ecrDiff), 2),
+			"ecrPercErr": round(avg(ecrDiffPercErr), 2),
 			"vegasMedianPlusMinus": median(vegasDiffPlusMinus),
 			"vegasMeanPlusMinus": round(avg(vegasDiffPlusMinus), 2),
+			"vegasMeanPlusMinusPercErr": round(avg(vegasDiffPlusMinusPercErr), 2),
 			"ecrMedianPlusMinus": median(ecrDiffPlusMinus),
 			"ecrMeanPlusMinus": round(avg(ecrDiffPlusMinus), 2),
+			"ecrMeanPlusMinusPercErr": round(avg(ecrDiffPlusMinusPercErr), 2),
 		}
 
 	posStatistics["ALL"] = {
 		"vegasMedian": median(vegasDiffAll),
 		"vegasMean": round(avg(vegasDiffAll), 2),
+		"vegasPercErr": round(avg(vegasDiffAllPercErr), 2),
 		"ecrMedian": median(ecrDiffAll),
 		"ecrMean": round(avg(ecrDiffAll), 2),
+		"ecrPercErr": round(avg(ecrDiffAllPercErr), 2),
 		"vegasMedianPlusMinus": median(vegasDiffAllPlusMinus),
 		"vegasMeanPlusMinus": round(avg(vegasDiffAllPlusMinus), 2),
+		"vegasMeanPlusMinusPercErr": round(avg(vegasDiffAllPlusMinusPercErr), 2),
 		"ecrMedianPlusMinus": median(ecrDiffAllPlusMinus),
 		"ecrMeanPlusMinus": round(avg(ecrDiffAllPlusMinus), 2),
+		"ecrMeanPlusMinusPercErr": round(avg(ecrDiffAllPlusMinusPercErr), 2),
 	}
 
 	best = []

@@ -184,13 +184,6 @@
 						{title: "Rec YDs", field: "rec_yd", hozAlign: "center"},
 					]
 				})
-
-				TABLE.on("rowClick", function(e, row) {
-					for (r of TABLE.getSelectedRows()) {
-						r.toggleSelect();
-					}
-					row.toggleSelect()
-				});
 			}
 
 			renderTable();
