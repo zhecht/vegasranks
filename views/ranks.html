@@ -3,7 +3,6 @@
 	<head>
 		<title>NFL Vegas Ranks</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-		<link rel="stylesheet" href="/static/css/mlbteams.css" type="text/css">
 		<script type="text/javascript" src="/static/js/shared.js"></script>
 		<script type="text/javascript" src="/static/js/tabulator.min.js"></script>
 		<link href="/static/css/tabulator.min.css" rel="stylesheet">
@@ -28,7 +27,7 @@
 			align-items: center;
 		}
 		#header {
-			height: 10%;
+			height: 8%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -58,6 +57,7 @@
 		}
 		.negative { color: red; }
 		.positive { color: green; }
+		.yellow { background-color:rgb(153, 153, 0); }
 	</style>
 	<body>
 		<div id="header">
@@ -71,6 +71,9 @@
 			<button class="format" onclick="changeFormat(this)" style="margin-left: 2%">STD</button>
 			<button class="format active" onclick="changeFormat(this)">HALF</button>
 			<button class="format" onclick="changeFormat(this)">PPR</button>
+		</div>
+		<div style="text-align: center; margin-bottom: 2%">
+			Highlighted cells do not have a Vegas projection and use FPros projections instead
 		</div>
 		<div id="tableDiv">
 			<div id="propsTable">
@@ -156,6 +159,14 @@
 				return "<div>"+cell.getValue()+"</div>";
 			}
 
+			const incFormatter = function(cell, params, rendered) {
+				const data = cell.getRow().getData();
+				if (data.inc.split(",").includes(cell.getField())) {
+					return "<div class='yellow'>"+cell.getValue()+"</div>";	
+				}
+				return "<div>"+cell.getValue()+"</div>";
+			}
+
 			function renderTable(prop="all", format="half") {
 				TABLE = new Tabulator("#propsTable", {
 					tooltipsHeader: true,
@@ -176,12 +187,12 @@
 						{title: "FPts", field: "pts", sorter: "number", hozAlign: "center"},
 						{title: "Player", field: "player", headerFilter: "input"},
 						{title: "ATTD", field: "attd", hozAlign: "center"},
-						{title: "Pass TDs", field: "pass_td", hozAlign: "center"},
-						{title: "Pass YDs", field: "pass_yd", hozAlign: "center"},
-						{title: "Int", field: "int", hozAlign: "center"},
-						{title: "Rush YDs", field: "rush_yd", hozAlign: "center"},
-						{title: "Rec", field: "rec", hozAlign: "center"},
-						{title: "Rec YDs", field: "rec_yd", hozAlign: "center"},
+						{title: "Pass TDs", field: "pass_td", hozAlign: "center", formatter: incFormatter},
+						{title: "Pass YDs", field: "pass_yd", hozAlign: "center", formatter: incFormatter},
+						{title: "Int", field: "int", hozAlign: "center", formatter: incFormatter},
+						{title: "Rush YDs", field: "rush_yd", hozAlign: "center", formatter: incFormatter},
+						{title: "Rec", field: "rec", hozAlign: "center", formatter: incFormatter},
+						{title: "Rec YDs", field: "rec_yd", hozAlign: "center", formatter: incFormatter},
 					]
 				})
 			}
