@@ -25,15 +25,15 @@
             "half": 6,
             "ppr": 6
         },
-        "jonathan taylor": {
+        "derrick henry": {
             "std": 6,
+            "half": 10,
+            "ppr": 13
+        },
+        "jonathan taylor": {
+            "std": 7,
             "half": 8,
             "ppr": 9
-        },
-        "derrick henry": {
-            "std": 7,
-            "half": 10,
-            "ppr": 14
         },
         "james conner": {
             "std": 8,
@@ -50,45 +50,45 @@
             "half": 9,
             "ppr": 8
         },
-        "devon achane": {
+        "brian robinson": {
             "std": 11,
-            "half": 11,
+            "half": 13,
+            "ppr": 14
+        },
+        "devon achane": {
+            "std": 12,
+            "half": 12,
             "ppr": 11
         },
-        "brian robinson": {
-            "std": 12,
-            "half": 13,
-            "ppr": 13
+        "jahmyr gibbs": {
+            "std": 13,
+            "half": 11,
+            "ppr": 10
         },
         "james cook": {
-            "std": 13,
+            "std": 14,
             "half": 14,
             "ppr": 12
         },
         "david montgomery": {
-            "std": 14,
-            "half": 15,
-            "ppr": 17
-        },
-        "jahmyr gibbs": {
             "std": 15,
-            "half": 12,
-            "ppr": 10
+            "half": 16,
+            "ppr": 17
         },
         "josh jacobs": {
             "std": 16,
-            "half": 16,
+            "half": 15,
             "ppr": 15
         },
-        "zack moss": {
-            "std": 17,
-            "half": 18,
-            "ppr": 19
-        },
         "najee harris": {
-            "std": 18,
+            "std": 17,
             "half": 19,
             "ppr": 20
+        },
+        "zack moss": {
+            "std": 18,
+            "half": 18,
+            "ppr": 19
         },
         "travis etienne": {
             "std": 19,
@@ -100,15 +100,15 @@
             "half": 20,
             "ppr": 18
         },
-        "tony pollard": {
-            "std": 21,
-            "half": 22,
-            "ppr": 22
-        },
         "devin singletary": {
-            "std": 22,
+            "std": 21,
             "half": 21,
             "ppr": 21
+        },
+        "tony pollard": {
+            "std": 22,
+            "half": 22,
+            "ppr": 22
         },
         "jk dobbins": {
             "std": 23,
@@ -120,90 +120,90 @@
             "half": 24,
             "ppr": 23
         },
-        "jerome ford": {
+        "kenneth walker": {
             "std": 25,
+            "half": 27,
+            "ppr": 31
+        },
+        "jerome ford": {
+            "std": 26,
             "half": 25,
             "ppr": 25
         },
         "rachaad white": {
-            "std": 26,
+            "std": 27,
             "half": 26,
             "ppr": 26
         },
         "carson steele": {
-            "std": 27,
-            "half": 27,
+            "std": 28,
+            "half": 28,
             "ppr": 27
         },
         "rico dowdle": {
-            "std": 28,
-            "half": 28,
+            "std": 29,
+            "half": 29,
             "ppr": 28
         },
         "braelon allen": {
-            "std": 29,
-            "half": 30,
-            "ppr": 32
-        },
-        "kenneth walker": {
             "std": 30,
-            "half": 35,
-            "ppr": 38
+            "half": 31,
+            "ppr": 33
         },
         "bucky irving": {
             "std": 31,
-            "half": 29,
+            "half": 30,
             "ppr": 29
         },
         "zamir white": {
             "std": 32,
             "half": 32,
-            "ppr": 33
+            "ppr": 34
         },
         "cam akers": {
             "std": 33,
-            "half": 33,
-            "ppr": 34
+            "half": 34,
+            "ppr": 35
         },
         "dandre swift": {
             "std": 34,
-            "half": 31,
-            "ppr": 31
-        },
-        "zach charbonnet": {
-            "std": 35,
-            "half": 34,
+            "half": 33,
             "ppr": 30
+        },
+        "roschon johnson": {
+            "std": 35,
+            "half": 35,
+            "ppr": 36
         },
         "javonte williams": {
             "std": 36,
             "half": 36,
             "ppr": 37
         },
-        "chase brown": {
+        "zach charbonnet": {
             "std": 37,
-            "half": 38,
-            "ppr": 39
-        },
-        "roschon johnson": {
-            "std": 38,
             "half": 37,
-            "ppr": 35
+            "ppr": 32
         },
-        "tyjae spears": {
-            "std": 39,
-            "half": 39,
-            "ppr": 36
+        "ezekiel elliott": {
+            "std": 38,
+            "half": 40,
+            "ppr": 40
         },
         "ty chandler": {
-            "std": 40,
+            "std": 39,
             "half": 41,
             "ppr": 42
         },
-        "ezekiel elliott": {
+        "chase brown": {
+            "std": 40,
+            "half": 39,
+            "ppr": 39
+        },
+        "tyjae spears": {
             "std": 41,
-            "half": 40,
-            "ppr": 40
+            "half": 38,
+            "ppr": 38
         },
         "alexander mattison": {
             "std": 42,
@@ -217,28 +217,28 @@
         },
         "emanuel wilson": {
             "std": 44,
-            "half": 45,
-            "ppr": 47
-        },
-        "miles sanders": {
-            "std": 45,
             "half": 46,
             "ppr": 46
+        },
+        "cordarrelle patterson": {
+            "std": 45,
+            "half": 45,
+            "ppr": 49
         },
         "samaje perine": {
             "std": 46,
             "half": 43,
             "ppr": 41
         },
-        "antonio gibson": {
+        "miles sanders": {
             "std": 47,
             "half": 47,
-            "ppr": 45
+            "ppr": 47
         },
-        "cordarrelle patterson": {
+        "antonio gibson": {
             "std": 48,
             "half": 48,
-            "ppr": 49
+            "ppr": 45
         },
         "tyler allgeier": {
             "std": 49,
@@ -250,139 +250,139 @@
             "half": 49,
             "ppr": 48
         },
-        "tyrone tracy": {
-            "std": 51,
-            "half": 51,
-            "ppr": 51
-        },
-        "gus edwards": {
-            "std": 52,
-            "half": 53,
-            "ppr": 53
-        },
         "donta foreman": {
-            "std": 53,
+            "std": 51,
             "half": 52,
             "ppr": 52
         },
+        "tyrone tracy": {
+            "std": 52,
+            "half": 51,
+            "ppr": 51
+        },
         "tank bigsby": {
-            "std": 54,
-            "half": 54,
+            "std": 53,
+            "half": 53,
             "ppr": 54
         },
-        "jamaal williams": {
-            "std": 55,
-            "half": 55,
-            "ppr": 55
+        "gus edwards": {
+            "std": 54,
+            "half": 54,
+            "ppr": 53
         },
         "trey benson": {
-            "std": 56,
-            "half": 56,
+            "std": 55,
+            "half": 55,
             "ppr": 56
         },
-        "khalil herbert": {
+        "jamaal williams": {
+            "std": 56,
+            "half": 56,
+            "ppr": 55
+        },
+        "joe mixon": {
             "std": 57,
-            "half": 58,
+            "half": 60,
+            "ppr": 67
+        },
+        "khalil herbert": {
+            "std": 58,
+            "half": 57,
             "ppr": 59
         },
         "ray davis": {
-            "std": 58,
+            "std": 59,
             "half": 59,
             "ppr": 58
         },
         "tyler badie": {
-            "std": 59,
-            "half": 57,
-            "ppr": 57
-        },
-        "isaac guerendo": {
             "std": 60,
-            "half": 60,
-            "ppr": 60
+            "half": 58,
+            "ppr": 57
         },
         "kareem hunt": {
             "std": 61,
             "half": 61,
             "ppr": 61
         },
-        "ty johnson": {
+        "isaac guerendo": {
             "std": 62,
-            "half": 62,
-            "ppr": 62
-        },
-        "joe mixon": {
-            "std": 63,
-            "half": 68,
-            "ppr": 67
+            "half": 63,
+            "ppr": 60
         },
         "jaylen wright": {
+            "std": 63,
+            "half": 62,
+            "ppr": 64
+        },
+        "ty johnson": {
             "std": 64,
             "half": 64,
-            "ppr": 66
+            "ppr": 62
         },
         "trey sermon": {
             "std": 65,
             "half": 66,
             "ppr": 69
         },
-        "dare ogunbowale": {
+        "raheem mostert": {
             "std": 66,
-            "half": 63,
+            "half": 71,
+            "ppr": 74
+        },
+        "dare ogunbowale": {
+            "std": 67,
+            "half": 65,
             "ppr": 63
         },
+        "kenneth gainwell": {
+            "std": 68,
+            "half": 68,
+            "ppr": 68
+        },
         "jeff wilson": {
-            "std": 67,
-            "half": 70,
+            "std": 69,
+            "half": 69,
             "ppr": 70
         },
         "emari demercado": {
-            "std": 68,
-            "half": 65,
-            "ppr": 64
-        },
-        "kenneth gainwell": {
-            "std": 69,
-            "half": 67,
-            "ppr": 68
-        },
-        "kyle juszczyk": {
             "std": 70,
-            "half": 69,
+            "half": 67,
             "ppr": 65
         },
         "ronnie rivers": {
             "std": 71,
-            "half": 73,
+            "half": 72,
             "ppr": 73
         },
-        "deuce vaughn": {
+        "kyle juszczyk": {
             "std": 72,
-            "half": 71,
-            "ppr": 71
+            "half": 70,
+            "ppr": 66
         },
-        "raheem mostert": {
+        "deuce vaughn": {
             "std": 73,
-            "half": 75,
-            "ppr": 74
+            "half": 73,
+            "ppr": 72
         },
         "blake corum": {
             "std": 74,
             "half": 74,
+            "ppr": 77
+        },
+        "dernest johnson": {
+            "std": 75,
+            "half": 76,
             "ppr": 76
         },
         "jeremy mcnichols": {
-            "std": 75,
-            "half": 72,
-            "ppr": 72
-        },
-        "dernest johnson": {
             "std": 76,
-            "half": 77,
-            "ppr": 77
+            "half": 75,
+            "ppr": 71
         },
         "ameer abdullah": {
             "std": 77,
-            "half": 76,
+            "half": 77,
             "ppr": 75
         },
         "eric gray": {
@@ -390,200 +390,197 @@
             "half": 78,
             "ppr": 78
         },
-        "will shipley": {
+        "chris rodriguez": {
             "std": 79,
             "half": 79,
+            "ppr": 83
+        },
+        "will shipley": {
+            "std": 80,
+            "half": 80,
             "ppr": 82
         },
         "kenny mcintosh": {
-            "std": 80,
-            "half": 80,
-            "ppr": 81
-        },
-        "chris rodriguez": {
             "std": 81,
-            "half": 82,
-            "ppr": 84
+            "half": 81,
+            "ppr": 81
         },
         "isaiah davis": {
             "std": 82,
             "half": 85,
-            "ppr": 86
+            "ppr": 88
         },
         "hunter luepke": {
             "std": 83,
-            "half": 81,
-            "ppr": 83
-        },
-        "jordan mims": {
-            "std": 84,
-            "half": 88,
-            "ppr": 89
+            "half": 83,
+            "ppr": 84
         },
         "tyler goodson": {
+            "std": 84,
+            "half": 88,
+            "ppr": 86
+        },
+        "craig reynolds": {
             "std": 85,
-            "half": 87,
-            "ppr": 87
+            "half": 90,
+            "ppr": 92
         },
         "jamycal hasty": {
             "std": 86,
             "half": 86,
             "ppr": 85
         },
-        "craig reynolds": {
+        "raheem blackshear": {
             "std": 87,
-            "half": 90,
-            "ppr": 91
+            "half": 87,
+            "ppr": 87
         },
-        "michael burton": {
+        "jordan mims": {
             "std": 88,
-            "half": 92,
-            "ppr": 94
+            "half": 89,
+            "ppr": 89
+        },
+        "alec ingold": {
+            "std": 89,
+            "half": 82,
+            "ppr": 80
         },
         "cj ham": {
-            "std": 89,
+            "std": 90,
             "half": 84,
             "ppr": 79
         },
-        "british brooks": {
-            "std": 90,
-            "half": 93,
-            "ppr": 95
-        },
-        "alec ingold": {
+        "michael burton": {
             "std": 91,
-            "half": 83,
-            "ppr": 80
+            "half": 96,
+            "ppr": 94
         },
-        "raheem blackshear": {
+        "keaontay ingram": {
             "std": 92,
-            "half": 89,
-            "ppr": 88
+            "half": 93,
+            "ppr": 107
         },
-        "chris brooks": {
+        "jj taylor": {
             "std": 93,
-            "half": 95,
-            "ppr": 92
+            "half": 92,
+            "ppr": 90
         },
         "evan hull": {
             "std": 94,
-            "half": 99,
-            "ppr": 98
-        },
-        "adam prentice": {
-            "std": 95,
-            "half": 96,
+            "half": 104,
             "ppr": 99
         },
-        "michael carter": {
-            "std": 96,
-            "half": 98,
-            "ppr": 96
-        },
-        "jj taylor": {
-            "std": 97,
+        "deejay dallas": {
+            "std": 95,
             "half": 91,
-            "ppr": 90
+            "ppr": 91
         },
         "sione vaki": {
-            "std": 98,
+            "std": 96,
             "half": 100,
             "ppr": 100
         },
-        "deejay dallas": {
-            "std": 99,
-            "half": 94,
+        "michael carter": {
+            "std": 97,
+            "half": 95,
+            "ppr": 97
+        },
+        "chris brooks": {
+            "std": 98,
+            "half": 97,
             "ppr": 93
         },
-        "sean tucker": {
-            "std": 100,
-            "half": 102,
+        "hassan haskins": {
+            "std": 99,
+            "half": 103,
             "ppr": 102
         },
-        "hassan haskins": {
+        "jonathan ward": {
+            "std": 100,
+            "half": 94,
+            "ppr": 105
+        },
+        "british brooks": {
             "std": 101,
+            "half": 102,
+            "ppr": 96
+        },
+        "adam prentice": {
+            "std": 102,
+            "half": 98,
+            "ppr": 98
+        },
+        "dalvin cook": {
+            "std": 103,
+            "half": 108,
+            "ppr": 108
+        },
+        "gary brightwell": {
+            "std": 104,
             "half": 101,
+            "ppr": 109
+        },
+        "patrick ricard": {
+            "std": 105,
+            "half": 99,
+            "ppr": 95
+        },
+        "sean tucker": {
+            "std": 106,
+            "half": 105,
             "ppr": 101
         },
         "patrick taylor": {
-            "std": 102,
-            "half": 103,
-            "ppr": 103
-        },
-        "patrick ricard": {
-            "std": 103,
-            "half": 97,
-            "ppr": 97
-        },
-        "keaontay ingram": {
-            "std": 104,
-            "half": 107,
-            "ppr": 107
-        },
-        "jonathan ward": {
-            "std": 105,
-            "half": 104,
-            "ppr": 105
-        },
-        "dalvin cook": {
-            "std": 106,
-            "half": 110,
-            "ppr": 108
-        },
-        "trayveon williams": {
             "std": 107,
             "half": 106,
+            "ppr": 103
+        },
+        "trayveon williams": {
+            "std": 108,
+            "half": 112,
             "ppr": 106
         },
-        "gary brightwell": {
-            "std": 108,
-            "half": 105,
-            "ppr": 109
-        },
-        "cody schrader": {
-            "std": 109,
-            "half": 109,
-            "ppr": 110
-        },
-        "kendall milton": {
-            "std": 110,
-            "half": 112,
-            "ppr": 112
-        },
-        "julius chestnut": {
-            "std": 111,
-            "half": 111,
-            "ppr": 113
-        },
-        "reggie gilliam": {
-            "std": 112,
-            "half": 108,
-            "ppr": 104
-        },
         "avery williams": {
-            "std": 113,
+            "std": 109,
             "half": 113,
             "ppr": 111
         },
-        "myles gaskin": {
-            "std": 114,
+        "cody schrader": {
+            "std": 110,
+            "half": 107,
+            "ppr": 110
+        },
+        "kendall milton": {
+            "std": 111,
             "half": 114,
+            "ppr": 112
+        },
+        "julius chestnut": {
+            "std": 112,
+            "half": 110,
+            "ppr": 113
+        },
+        "myles gaskin": {
+            "std": 113,
+            "half": 111,
             "ppr": 114
         },
+        "reggie gilliam": {
+            "std": 114,
+            "half": 109,
+            "ppr": 104
+        },
         "mike boone": {
-            "std": 115,
             "half": 115,
             "ppr": 115
         },
-        "jase mcclellan": {
-            "std": 116,
-            "half": 117,
-            "ppr": 117
-        },
         "dylan laube": {
-            "std": 117,
             "half": 116,
             "ppr": 116
+        },
+        "jase mcclellan": {
+            "half": 117,
+            "ppr": 117
         }
     },
     "WR": {
@@ -597,32 +594,32 @@
             "half": 2,
             "ppr": 2
         },
-        "nico collins": {
-            "std": 3,
-            "half": 5,
-            "ppr": 7
-        },
         "jamarr chase": {
-            "std": 4,
+            "std": 3,
             "half": 4,
             "ppr": 4
+        },
+        "nico collins": {
+            "std": 4,
+            "half": 5,
+            "ppr": 6
         },
         "rashee rice": {
             "std": 5,
             "half": 3,
             "ppr": 3
         },
-        "malik nabers": {
+        "amon ra st brown": {
             "std": 6,
             "half": 6,
             "ppr": 5
         },
-        "amon ra st brown": {
+        "marvin harrison": {
             "std": 7,
             "half": 7,
-            "ppr": 6
+            "ppr": 7
         },
-        "marvin harrison": {
+        "malik nabers": {
             "std": 8,
             "half": 8,
             "ppr": 8
@@ -639,7 +636,7 @@
         },
         "brandon aiyuk": {
             "std": 11,
-            "half": 13,
+            "half": 14,
             "ppr": 15
         },
         "chris godwin": {
@@ -650,62 +647,62 @@
         "dj moore": {
             "std": 13,
             "half": 16,
-            "ppr": 19
+            "ppr": 16
         },
         "garrett wilson": {
             "std": 14,
-            "half": 14,
-            "ppr": 12
+            "half": 12,
+            "ppr": 13
         },
         "diontae johnson": {
             "std": 15,
-            "half": 12,
+            "half": 13,
             "ppr": 10
         },
         "amari cooper": {
             "std": 16,
-            "half": 20,
-            "ppr": 20
+            "half": 19,
+            "ppr": 19
         },
         "tyreek hill": {
             "std": 17,
-            "half": 21,
-            "ppr": 21
-        },
-        "drake london": {
-            "std": 18,
-            "half": 17,
-            "ppr": 16
+            "half": 20,
+            "ppr": 20
         },
         "stefon diggs": {
-            "std": 19,
+            "std": 18,
             "half": 15,
-            "ppr": 13
+            "ppr": 12
         },
         "jayden reed": {
-            "std": 20,
-            "half": 22,
+            "std": 19,
+            "half": 21,
             "ppr": 24
         },
-        "chris olave": {
-            "std": 21,
-            "half": 19,
-            "ppr": 18
-        },
         "zay flowers": {
-            "std": 22,
-            "half": 18,
+            "std": 20,
+            "half": 17,
             "ppr": 17
         },
+        "drake london": {
+            "std": 21,
+            "half": 18,
+            "ppr": 18
+        },
         "george pickens": {
-            "std": 23,
+            "std": 22,
             "half": 23,
             "ppr": 25
         },
         "jameson williams": {
-            "std": 24,
+            "std": 23,
             "half": 26,
             "ppr": 26
+        },
+        "chris olave": {
+            "std": 24,
+            "half": 22,
+            "ppr": 23
         },
         "tee higgins": {
             "std": 25,
@@ -715,7 +712,7 @@
         "terry mclaurin": {
             "std": 26,
             "half": 24,
-            "ppr": 23
+            "ppr": 21
         },
         "rashid shaheed": {
             "std": 27,
@@ -727,761 +724,734 @@
             "half": 25,
             "ppr": 22
         },
-        "brian thomas": {
-            "std": 29,
-            "half": 30,
-            "ppr": 30
-        },
         "khalil shakir": {
-            "std": 30,
+            "std": 29,
             "half": 29,
             "ppr": 29
         },
-        "rome odunze": {
-            "std": 31,
-            "half": 31,
-            "ppr": 33
-        },
-        "jauan jennings": {
-            "std": 32,
-            "half": 33,
-            "ppr": 32
+        "brian thomas": {
+            "std": 30,
+            "half": 30,
+            "ppr": 30
         },
         "christian kirk": {
-            "std": 33,
-            "half": 32,
+            "std": 31,
+            "half": 31,
             "ppr": 31
         },
+        "rome odunze": {
+            "std": 32,
+            "half": 32,
+            "ppr": 33
+        },
         "calvin ridley": {
-            "std": 34,
-            "half": 35,
+            "std": 33,
+            "half": 34,
             "ppr": 35
         },
         "xavier worthy": {
-            "std": 35,
+            "std": 34,
             "half": 36,
-            "ppr": 37
+            "ppr": 38
         },
-        "darnell mooney": {
+        "jakobi meyers": {
+            "std": 35,
+            "half": 33,
+            "ppr": 32
+        },
+        "jauan jennings": {
             "std": 36,
             "half": 37,
-            "ppr": 40
+            "ppr": 36
         },
-        "michael pittman": {
+        "darnell mooney": {
             "std": 37,
-            "half": 34,
-            "ppr": 34
+            "half": 38,
+            "ppr": 41
         },
         "jaylen waddle": {
             "std": 38,
-            "half": 39,
-            "ppr": 42
+            "half": 40,
+            "ppr": 40
+        },
+        "michael pittman": {
+            "std": 39,
+            "half": 35,
+            "ppr": 34
         },
         "courtland sutton": {
-            "std": 39,
-            "half": 40,
-            "ppr": 43
-        },
-        "ladd mcconkey": {
             "std": 40,
-            "half": 38,
-            "ppr": 38
-        },
-        "jerry jeudy": {
-            "std": 41,
-            "half": 43,
-            "ppr": 44
+            "half": 41,
+            "ppr": 42
         },
         "deandre hopkins": {
-            "std": 42,
-            "half": 45,
+            "std": 41,
+            "half": 42,
             "ppr": 45
         },
-        "romeo doubs": {
-            "std": 43,
-            "half": 44,
-            "ppr": 46
-        },
-        "jakobi meyers": {
-            "std": 44,
-            "half": 41,
+        "ladd mcconkey": {
+            "std": 42,
+            "half": 39,
             "ppr": 39
         },
-        "tyler lockett": {
-            "std": 45,
-            "half": 42,
-            "ppr": 41
+        "jerry jeudy": {
+            "std": 43,
+            "half": 45,
+            "ppr": 44
+        },
+        "romeo doubs": {
+            "std": 44,
+            "half": 43,
+            "ppr": 46
         },
         "christian watson": {
-            "std": 46,
-            "half": 49,
-            "ppr": 52
-        },
-        "demarcus robinson": {
-            "std": 47,
+            "std": 45,
             "half": 48,
-            "ppr": 48
+            "ppr": 53
+        },
+        "tyler lockett": {
+            "std": 46,
+            "half": 46,
+            "ppr": 43
         },
         "michael wilson": {
-            "std": 48,
+            "std": 47,
             "half": 47,
             "ppr": 47
         },
         "brandin cooks": {
+            "std": 48,
+            "half": 49,
+            "ppr": 49
+        },
+        "demarcus robinson": {
             "std": 49,
             "half": 50,
             "ppr": 50
         },
         "wandale robinson": {
             "std": 50,
-            "half": 46,
-            "ppr": 36
-        },
-        "gabriel davis": {
-            "std": 51,
-            "half": 53,
-            "ppr": 55
+            "half": 44,
+            "ppr": 37
         },
         "quentin johnston": {
-            "std": 52,
-            "half": 52,
+            "std": 51,
+            "half": 51,
             "ppr": 51
         },
-        "tutu atwell": {
+        "gabriel davis": {
+            "std": 52,
+            "half": 56,
+            "ppr": 59
+        },
+        "keenan allen": {
             "std": 53,
-            "half": 55,
-            "ppr": 56
+            "half": 52,
+            "ppr": 48
         },
         "andrei iosivas": {
             "std": 54,
             "half": 54,
-            "ppr": 53
+            "ppr": 54
         },
-        "greg dortch": {
+        "jordan addison": {
             "std": 55,
-            "half": 51,
-            "ppr": 49
+            "half": 55,
+            "ppr": 56
         },
-        "allen lazard": {
+        "tutu atwell": {
             "std": 56,
             "half": 57,
+            "ppr": 58
+        },
+        "greg dortch": {
+            "std": 57,
+            "half": 53,
+            "ppr": 52
+        },
+        "allen lazard": {
+            "std": 58,
+            "half": 59,
             "ppr": 57
         },
         "xavier legette": {
-            "std": 57,
-            "half": 56,
-            "ppr": 54
+            "std": 59,
+            "half": 58,
+            "ppr": 55
         },
         "alec pierce": {
-            "std": 58,
-            "half": 62,
-            "ppr": 64
-        },
-        "keon coleman": {
-            "std": 59,
-            "half": 59,
-            "ppr": 62
-        },
-        "jalen nailor": {
             "std": 60,
-            "half": 58,
-            "ppr": 58
-        },
-        "mike williams": {
-            "std": 61,
-            "half": 60,
-            "ppr": 63
-        },
-        "jalen tolbert": {
-            "std": 62,
-            "half": 61,
-            "ppr": 61
-        },
-        "rashod bateman": {
-            "std": 63,
-            "half": 65,
+            "half": 62,
             "ppr": 65
         },
-        "demario douglas": {
-            "std": 64,
-            "half": 63,
-            "ppr": 60
+        "keon coleman": {
+            "std": 61,
+            "half": 60,
+            "ppr": 61
         },
-        "josh downs": {
-            "std": 65,
+        "mike williams": {
+            "std": 62,
             "half": 64,
-            "ppr": 59
-        },
-        "tyler johnson": {
-            "std": 66,
-            "half": 68,
-            "ppr": 70
-        },
-        "ray ray mccloud": {
-            "std": 67,
-            "half": 66,
             "ppr": 66
         },
-        "jordan addison": {
-            "std": 68,
-            "half": 70,
-            "ppr": 69
+        "jalen tolbert": {
+            "std": 63,
+            "half": 63,
+            "ppr": 63
         },
-        "jahan dotson": {
-            "std": 69,
+        "jalen nailor": {
+            "std": 64,
+            "half": 61,
+            "ppr": 60
+        },
+        "demario douglas": {
+            "std": 65,
+            "half": 65,
+            "ppr": 62
+        },
+        "rashod bateman": {
+            "std": 66,
             "half": 67,
-            "ppr": 68
-        },
-        "keenan allen": {
-            "std": 70,
-            "half": 69,
             "ppr": 67
         },
-        "dontayvion wicks": {
-            "std": 71,
-            "half": 72,
-            "ppr": 72
+        "josh downs": {
+            "std": 67,
+            "half": 66,
+            "ppr": 64
+        },
+        "jahan dotson": {
+            "std": 68,
+            "half": 69,
+            "ppr": 68
         },
         "tre tucker": {
-            "std": 72,
+            "std": 69,
+            "half": 68,
+            "ppr": 69
+        },
+        "tyler johnson": {
+            "std": 70,
             "half": 71,
             "ppr": 71
+        },
+        "ray ray mccloud": {
+            "std": 71,
+            "half": 70,
+            "ppr": 70
+        },
+        "dontayvion wicks": {
+            "std": 72,
+            "half": 72,
+            "ppr": 72
         },
         "noah brown": {
             "std": 73,
             "half": 73,
             "ppr": 73
         },
-        "curtis samuel": {
+        "luke mccaffrey": {
             "std": 74,
-            "half": 75,
-            "ppr": 76
-        },
-        "jalynn polk": {
-            "std": 75,
             "half": 74,
             "ppr": 74
         },
-        "luke mccaffrey": {
-            "std": 76,
-            "half": 76,
+        "jalynn polk": {
+            "std": 75,
+            "half": 75,
             "ppr": 75
         },
-        "josh reynolds": {
+        "curtis samuel": {
+            "std": 76,
+            "half": 76,
+            "ppr": 76
+        },
+        "darius slayton": {
             "std": 77,
             "half": 77,
             "ppr": 78
         },
-        "darius slayton": {
+        "josh reynolds": {
             "std": 78,
             "half": 78,
             "ppr": 79
         },
-        "jonathan mingo": {
+        "deebo samuel": {
             "std": 79,
             "half": 79,
-            "ppr": 77
+            "ppr": 82
         },
-        "elijah moore": {
+        "jonathan mingo": {
             "std": 80,
             "half": 80,
-            "ppr": 80
+            "ppr": 77
         },
         "jordan whittington": {
             "std": 81,
             "half": 81,
             "ppr": 81
         },
-        "tyler boyd": {
+        "elijah moore": {
             "std": 82,
             "half": 82,
-            "ppr": 82
+            "ppr": 80
         },
         "calvin austin": {
             "std": 83,
+            "half": 84,
+            "ppr": 84
+        },
+        "tyler boyd": {
+            "std": 84,
             "half": 83,
             "ppr": 83
         },
         "mack hollins": {
-            "std": 84,
-            "half": 84,
-            "ppr": 84
-        },
-        "adonai mitchell": {
             "std": 85,
             "half": 85,
+            "ppr": 85
+        },
+        "joshua palmer": {
+            "std": 86,
+            "half": 86,
             "ppr": 86
         },
         "johnny wilson": {
-            "std": 86,
-            "half": 86,
-            "ppr": 85
-        },
-        "dyami brown": {
             "std": 87,
+            "half": 88,
+            "ppr": 87
+        },
+        "adonai mitchell": {
+            "std": 88,
             "half": 87,
             "ppr": 88
         },
-        "joshua palmer": {
-            "std": 88,
-            "half": 89,
-            "ppr": 87
-        },
-        "liljordan humphrey": {
+        "dyami brown": {
             "std": 89,
             "half": 91,
-            "ppr": 91
+            "ppr": 90
         },
-        "kj osborn": {
+        "juju smith schuster": {
             "std": 90,
             "half": 90,
             "ppr": 89
         },
         "nelson agholor": {
             "std": 91,
-            "half": 88,
-            "ppr": 92
+            "half": 89,
+            "ppr": 91
         },
-        "juju smith schuster": {
+        "liljordan humphrey": {
             "std": 92,
             "half": 92,
-            "ppr": 90
+            "ppr": 92
         },
-        "justin watson": {
+        "kj osborn": {
             "std": 93,
             "half": 93,
             "ppr": 93
         },
-        "kavontae turpin": {
+        "justin watson": {
             "std": 94,
-            "half": 95,
-            "ppr": 97
-        },
-        "van jefferson": {
-            "std": 95,
             "half": 94,
             "ppr": 94
         },
-        "jalen mcmillan": {
+        "kavontae turpin": {
+            "std": 95,
+            "half": 98,
+            "ppr": 97
+        },
+        "van jefferson": {
             "std": 96,
             "half": 96,
+            "ppr": 96
+        },
+        "brandon powell": {
+            "std": 97,
+            "half": 97,
             "ppr": 95
         },
-        "ronnie bell": {
-            "std": 97,
-            "half": 99,
+        "trey palmer": {
+            "std": 98,
+            "half": 95,
             "ppr": 99
         },
         "deandre carter": {
-            "std": 98,
-            "half": 97,
+            "std": 99,
+            "half": 101,
             "ppr": 98
         },
-        "brandon powell": {
-            "std": 99,
-            "half": 98,
-            "ppr": 96
-        },
-        "kalif raymond": {
+        "cedric tillman": {
             "std": 100,
-            "half": 101,
+            "half": 103,
             "ppr": 100
         },
-        "marvin mims": {
+        "kalif raymond": {
             "std": 101,
-            "half": 100,
+            "half": 102,
             "ppr": 101
         },
-        "parris campbell": {
+        "jermaine burton": {
             "std": 102,
-            "half": 104,
-            "ppr": 104
-        },
-        "cedric tillman": {
-            "std": 103,
-            "half": 103,
+            "half": 99,
             "ppr": 102
         },
-        "tyquan thornton": {
-            "std": 104,
-            "half": 105,
+        "marvin mims": {
+            "std": 103,
+            "half": 100,
             "ppr": 103
         },
-        "tim patrick": {
+        "ronnie bell": {
+            "std": 104,
+            "half": 106,
+            "ppr": 104
+        },
+        "treylon burks": {
             "std": 105,
+            "half": 105,
+            "ppr": 105
+        },
+        "mason tipton": {
+            "std": 106,
+            "half": 107,
+            "ppr": 106
+        },
+        "tyquan thornton": {
+            "std": 107,
             "half": 108,
             "ppr": 107
         },
-        "trey palmer": {
-            "std": 106,
-            "half": 106,
-            "ppr": 106
-        },
-        "jermaine burton": {
-            "std": 107,
-            "half": 102,
-            "ppr": 105
-        },
-        "treylon burks": {
+        "jalin hyatt": {
             "std": 108,
-            "half": 109,
+            "half": 104,
             "ppr": 108
         },
-        "deebo samuel": {
+        "tim patrick": {
             "std": 109,
-            "half": 107,
+            "half": 110,
             "ppr": 110
         },
-        "mason tipton": {
+        "parris campbell": {
             "std": 110,
-            "half": 110,
+            "half": 109,
             "ppr": 109
         },
-        "jalin hyatt": {
+        "robert woods": {
             "std": 111,
             "half": 111,
             "ppr": 111
         },
-        "robert woods": {
+        "jalen mcmillan": {
             "std": 112,
-            "half": 112,
+            "half": 114,
             "ppr": 112
         },
         "marquez valdes scantling": {
             "std": 113,
-            "half": 114,
+            "half": 112,
+            "ppr": 113
+        },
+        "xavier hutchinson": {
+            "std": 114,
+            "half": 113,
+            "ppr": 114
+        },
+        "john metchie": {
+            "std": 115,
+            "half": 116,
+            "ppr": 116
+        },
+        "braxton berrios": {
+            "std": 116,
+            "half": 115,
             "ppr": 115
         },
         "olamide zaccheaus": {
-            "std": 114,
-            "half": 116,
-            "ppr": 114
-        },
-        "braxton berrios": {
-            "std": 115,
-            "half": 113,
-            "ppr": 113
-        },
-        "chris conley": {
-            "std": 116,
-            "half": 121,
-            "ppr": 121
-        },
-        "xavier hutchinson": {
             "std": 117,
             "half": 117,
             "ppr": 117
         },
-        "david moore": {
+        "malachi corley": {
             "std": 118,
             "half": 120,
+            "ppr": 118
+        },
+        "xavier gipson": {
+            "std": 119,
+            "half": 119,
+            "ppr": 121
+        },
+        "dj turner": {
+            "std": 120,
+            "half": 118,
             "ppr": 119
         },
         "jalen brooks": {
-            "std": 119,
-            "half": 115,
-            "ppr": 116
-        },
-        "troy franklin": {
-            "std": 120,
-            "half": 118,
-            "ppr": 118
-        },
-        "simi fehoko": {
             "std": 121,
-            "half": 122,
+            "half": 121,
+            "ppr": 120
+        },
+        "trenton irwin": {
+            "std": 122,
+            "half": 133,
             "ppr": 122
         },
-        "xavier gipson": {
-            "std": 122,
+        "simi fehoko": {
+            "std": 123,
             "half": 125,
             "ppr": 124
         },
+        "david moore": {
+            "std": 124,
+            "half": 126,
+            "ppr": 127
+        },
         "parker washington": {
-            "std": 123,
-            "half": 119,
+            "std": 125,
+            "half": 124,
             "ppr": 123
         },
-        "cedrick wilson": {
-            "std": 124,
-            "half": 124,
-            "ppr": 126
-        },
-        "derius davis": {
-            "std": 125,
-            "half": 127,
-            "ppr": 128
-        },
-        "malachi corley": {
+        "chris conley": {
             "std": 126,
-            "half": 123,
-            "ppr": 120
+            "half": 127,
+            "ppr": 129
         },
-        "jake bobo": {
+        "troy franklin": {
             "std": 127,
-            "half": 128,
-            "ppr": 127
+            "half": 123,
+            "ppr": 126
         },
         "scotty miller": {
             "std": 128,
-            "half": 126,
+            "half": 122,
             "ppr": 125
         },
-        "john metchie": {
+        "derius davis": {
             "std": 129,
-            "half": 131,
-            "ppr": 130
-        },
-        "dj turner": {
-            "std": 130,
             "half": 129,
             "ppr": 131
         },
-        "trenton irwin": {
-            "std": 131,
-            "half": 130,
-            "ppr": 129
+        "cedrick wilson": {
+            "std": 130,
+            "half": 128,
+            "ppr": 128
         },
-        "laviska shenault": {
-            "std": 132,
-            "half": 132,
-            "ppr": 132
+        "devaughn vele": {
+            "std": 131,
+            "half": 135,
+            "ppr": 130
         },
         "ashton dulin": {
+            "std": 132,
+            "half": 130,
+            "ppr": 132
+        },
+        "laviska shenault": {
             "std": 133,
-            "half": 134,
+            "half": 131,
+            "ppr": 134
+        },
+        "jake bobo": {
+            "std": 134,
+            "half": 132,
             "ppr": 133
         },
         "jacob cowing": {
-            "std": 134,
-            "half": 136,
-            "ppr": 137
-        },
-        "skyy moore": {
             "std": 135,
-            "half": 138,
-            "ppr": 135
-        },
-        "trent sherfield": {
-            "std": 136,
-            "half": 133,
-            "ppr": 134
-        },
-        "devaughn vele": {
-            "std": 137,
-            "half": 135,
+            "half": 144,
             "ppr": 136
         },
-        "bo melton": {
-            "std": 138,
-            "half": 137,
-            "ppr": 138
+        "roman wilson": {
+            "std": 136,
+            "half": 147,
+            "ppr": 135
         },
-        "charlie jones": {
-            "std": 139,
-            "half": 139,
-            "ppr": 139
+        "sterling shepard": {
+            "std": 137,
+            "half": 141,
+            "ppr": 145
         },
         "erik ezukanma": {
-            "std": 140,
-            "half": 140,
-            "ppr": 141
-        },
-        "khadarel hodge": {
-            "std": 141,
-            "half": 143,
-            "ppr": 142
-        },
-        "chris moore": {
-            "std": 142,
-            "half": 144,
-            "ppr": 143
-        },
-        "jamison crowder": {
-            "std": 143,
-            "half": 141,
-            "ppr": 140
+            "std": 138,
+            "half": 142,
+            "ppr": 137
         },
         "bub means": {
-            "std": 144,
-            "half": 142,
-            "ppr": 144
+            "std": 139,
+            "half": 134,
+            "ppr": 138
         },
-        "nick westbrook ikhine": {
-            "std": 145,
-            "half": 147,
-            "ppr": 147
+        "bo melton": {
+            "std": 140,
+            "half": 136,
+            "ppr": 139
         },
-        "dee eskridge": {
-            "std": 146,
-            "half": 146,
-            "ppr": 146
+        "skyy moore": {
+            "std": 141,
+            "half": 138,
+            "ppr": 141
         },
-        "tyler scott": {
-            "std": 147,
-            "half": 148,
-            "ppr": 149
+        "trent sherfield": {
+            "std": 142,
+            "half": 137,
+            "ppr": 140
+        },
+        "john ross": {
+            "std": 143,
+            "half": 149,
+            "ppr": 143
         },
         "devin duvernay": {
-            "std": 148,
+            "std": 144,
             "half": 145,
-            "ppr": 145
+            "ppr": 142
+        },
+        "charlie jones": {
+            "std": 145,
+            "half": 140,
+            "ppr": 144
+        },
+        "chris moore": {
+            "std": 146,
+            "half": 143,
+            "ppr": 146
+        },
+        "dee eskridge": {
+            "std": 147,
+            "half": 139,
+            "ppr": 148
+        },
+        "jamison crowder": {
+            "std": 148,
+            "half": 146,
+            "ppr": 147
         },
         "tylan wallace": {
             "std": 149,
-            "half": 151,
-            "ppr": 151
+            "half": 158,
+            "ppr": 156
         },
-        "roman wilson": {
+        "tyler scott": {
             "std": 150,
-            "half": 150,
-            "ppr": 148
+            "half": 153,
+            "ppr": 150
         },
         "zach pascal": {
             "std": 151,
-            "half": 149,
-            "ppr": 150
-        },
-        "sterling shepard": {
-            "std": 152,
-            "half": 154,
+            "half": 148,
             "ppr": 154
         },
-        "danny gray": {
+        "kameron johnson": {
+            "std": 152,
+            "half": 150,
+            "ppr": 151
+        },
+        "nick westbrook ikhine": {
             "std": 153,
             "half": 155,
-            "ppr": 156
+            "ppr": 153
         },
         "kayshon boutte": {
             "std": 154,
             "half": 152,
-            "ppr": 153
+            "ppr": 149
         },
-        "javon baker": {
+        "danny gray": {
             "std": 155,
-            "half": 153,
-            "ppr": 152
-        },
-        "malik washington": {
-            "std": 156,
-            "half": 156,
-            "ppr": 155
-        },
-        "mecole hardman": {
-            "std": 157,
-            "half": 161,
-            "ppr": 161
-        },
-        "james proche": {
-            "std": 158,
-            "half": 157,
+            "half": 154,
             "ppr": 159
         },
-        "allen robinson": {
-            "std": 159,
-            "half": 158,
-            "ppr": 157
-        },
-        "deonte harty": {
-            "std": 160,
-            "half": 162,
-            "ppr": 162
+        "khadarel hodge": {
+            "std": 156,
+            "half": 151,
+            "ppr": 155
         },
         "jalen coker": {
-            "std": 161,
-            "half": 163,
+            "std": 157,
+            "half": 157,
+            "ppr": 158
+        },
+        "deonte harty": {
+            "std": 158,
+            "half": 162,
+            "ppr": 161
+        },
+        "javon baker": {
+            "std": 159,
+            "half": 156,
+            "ppr": 157
+        },
+        "malik washington": {
+            "std": 160,
+            "half": 161,
             "ppr": 160
         },
-        "kameron johnson": {
-            "std": 162,
+        "james proche": {
+            "std": 161,
             "half": 160,
             "ppr": 163
         },
+        "allen robinson": {
+            "std": 162,
+            "half": 164,
+            "ppr": 162
+        },
         "steven sims": {
             "std": 163,
-            "half": 159,
-            "ppr": 158
+            "half": 163,
+            "ppr": 152
         },
-        "collin johnson": {
+        "ramel keyton": {
             "std": 164,
+            "half": 159,
+            "ppr": 164
+        },
+        "mecole hardman": {
+            "std": 165,
             "half": 167,
             "ppr": 166
         },
         "tim jones": {
-            "std": 165,
+            "std": 166,
             "half": 165,
+            "ppr": 165
+        },
+        "collin johnson": {
+            "std": 167,
+            "half": 171,
             "ppr": 167
         },
-        "brenden rice": {
-            "std": 166,
-            "half": 166,
-            "ppr": 164
-        },
         "trishton jackson": {
-            "std": 167,
-            "half": 168,
-            "ppr": 168
-        },
-        "ramel keyton": {
             "std": 168,
-            "half": 164,
-            "ppr": 165
+            "half": 172,
+            "ppr": 168
         },
         "casey washington": {
             "std": 169,
-            "half": 170,
-            "ppr": 172
-        },
-        "malik heath": {
-            "std": 170,
-            "half": 175,
-            "ppr": 174
-        },
-        "dareke young": {
-            "std": 171,
-            "half": 169,
-            "ppr": 170
-        },
-        "bryce ford wheaton": {
-            "std": 172,
-            "half": 173,
-            "ppr": 171
-        },
-        "jhaquan jackson": {
-            "std": 173,
-            "half": 172,
+            "half": 168,
             "ppr": 169
         },
+        "brenden rice": {
+            "half": 166
+        },
         "jamari thrash": {
-            "std": 174,
-            "half": 171,
-            "ppr": 176
+            "half": 169
         },
-        "xavier weaver": {
-            "std": 175,
-            "half": 178,
-            "ppr": 175
-        },
-        "isaiah williams": {
-            "std": 176,
-            "half": 180,
-            "ppr": 178
+        "dareke young": {
+            "half": 170
         },
         "devontez walker": {
-            "std": 177,
-            "half": 174,
-            "ppr": 177
-        },
-        "ihmir smith marsette": {
-            "std": 178,
-            "half": 177,
-            "ppr": 173
-        },
-        "john ross": {
-            "half": 176
+            "half": 173
         },
         "irvin charles": {
-            "half": 179
+            "half": 174
+        },
+        "jhaquan jackson": {
+            "half": 175
+        },
+        "malik heath": {
+            "half": 176
+        },
+        "xavier weaver": {
+            "half": 177
         }
     },
     "TE": {
@@ -1515,60 +1485,60 @@
             "half": 5,
             "ppr": 5
         },
-        "mark andrews": {
+        "george kittle": {
             "std": 7,
             "half": 7,
-            "ppr": 7
+            "ppr": 10
         },
-        "george kittle": {
+        "mark andrews": {
             "std": 8,
-            "half": 11,
-            "ppr": 12
+            "half": 9,
+            "ppr": 8
         },
-        "pat freiermuth": {
+        "sam laporta": {
             "std": 9,
             "half": 8,
-            "ppr": 8
+            "ppr": 7
         },
         "cole kmet": {
             "std": 10,
-            "half": 9,
+            "half": 10,
             "ppr": 9
         },
-        "dalton schultz": {
+        "pat freiermuth": {
             "std": 11,
-            "half": 10,
-            "ppr": 10
+            "half": 11,
+            "ppr": 11
         },
-        "isaiah likely": {
+        "dalton schultz": {
             "std": 12,
             "half": 12,
-            "ppr": 15
+            "ppr": 12
         },
-        "sam laporta": {
+        "isaiah likely": {
             "std": 13,
-            "half": 15,
-            "ppr": 14
+            "half": 13,
+            "ppr": 15
         },
         "mike gesicki": {
             "std": 14,
-            "half": 14,
-            "ppr": 13
+            "half": 15,
+            "ppr": 14
         },
         "zach ertz": {
             "std": 15,
-            "half": 13,
-            "ppr": 11
-        },
-        "colby parkinson": {
-            "std": 16,
-            "half": 17,
-            "ppr": 17
+            "half": 14,
+            "ppr": 13
         },
         "hunter henry": {
-            "std": 17,
+            "std": 16,
             "half": 18,
             "ppr": 18
+        },
+        "colby parkinson": {
+            "std": 17,
+            "half": 17,
+            "ppr": 17
         },
         "tyler conklin": {
             "std": 18,
@@ -1587,25 +1557,25 @@
         },
         "taysom hill": {
             "std": 21,
-            "half": 22,
+            "half": 23,
             "ppr": 25
         },
-        "cade otton": {
+        "brenton strange": {
             "std": 22,
             "half": 21,
             "ppr": 21
         },
-        "jonnu smith": {
+        "cade otton": {
             "std": 23,
-            "half": 23,
+            "half": 22,
             "ppr": 22
         },
-        "brenton strange": {
+        "jordan akins": {
             "std": 24,
             "half": 24,
             "ppr": 23
         },
-        "jordan akins": {
+        "jonnu smith": {
             "std": 25,
             "half": 25,
             "ppr": 24
@@ -1613,59 +1583,59 @@
         "greg dulcich": {
             "std": 26,
             "half": 26,
-            "ppr": 26
-        },
-        "chigoziem okonkwo": {
-            "std": 27,
-            "half": 27,
             "ppr": 27
         },
         "juwan johnson": {
-            "std": 28,
+            "std": 27,
             "half": 31,
-            "ppr": 31
+            "ppr": 28
+        },
+        "chigoziem okonkwo": {
+            "std": 28,
+            "half": 27,
+            "ppr": 26
         },
         "elijah higgins": {
             "std": 29,
-            "half": 29,
+            "half": 28,
             "ppr": 29
         },
-        "johnny mundt": {
-            "std": 30,
-            "half": 28,
-            "ppr": 28
-        },
         "hayden hurst": {
-            "std": 31,
+            "std": 30,
             "half": 30,
+            "ppr": 31
+        },
+        "johnny mundt": {
+            "std": 31,
+            "half": 29,
             "ppr": 30
         },
-        "luke musgrave": {
+        "tommy tremble": {
             "std": 32,
-            "half": 33,
+            "half": 32,
             "ppr": 32
         },
-        "dawson knox": {
+        "luke musgrave": {
             "std": 33,
-            "half": 32,
-            "ppr": 34
-        },
-        "tommy tremble": {
-            "std": 34,
             "half": 34,
             "ppr": 33
+        },
+        "dawson knox": {
+            "std": 34,
+            "half": 33,
+            "ppr": 34
         },
         "theo johnson": {
             "std": 35,
             "half": 35,
             "ppr": 35
         },
-        "foster moreau": {
+        "jatavion sanders": {
             "std": 36,
             "half": 36,
             "ppr": 36
         },
-        "jatavion sanders": {
+        "foster moreau": {
             "std": 37,
             "half": 37,
             "ppr": 37
@@ -1690,12 +1660,12 @@
             "half": 41,
             "ppr": 41
         },
-        "kylen granson": {
+        "noah gray": {
             "std": 42,
             "half": 42,
             "ppr": 42
         },
-        "austin hooper": {
+        "kylen granson": {
             "std": 43,
             "half": 43,
             "ppr": 43
@@ -1705,15 +1675,15 @@
             "half": 44,
             "ppr": 44
         },
-        "noah gray": {
+        "grant calcaterra": {
             "std": 45,
             "half": 45,
-            "ppr": 45
+            "ppr": 46
         },
-        "grant calcaterra": {
+        "austin hooper": {
             "std": 46,
             "half": 46,
-            "ppr": 46
+            "ppr": 45
         },
         "eric saubert": {
             "std": 47,
@@ -1722,311 +1692,287 @@
         },
         "darnell washington": {
             "std": 48,
-            "half": 51,
-            "ppr": 49
-        },
-        "jeremy ruckert": {
-            "std": 49,
-            "half": 49,
-            "ppr": 50
-        },
-        "luke schoonmaker": {
-            "std": 50,
             "half": 48,
             "ppr": 48
         },
-        "josh oliver": {
-            "std": 51,
+        "luke schoonmaker": {
+            "std": 49,
+            "half": 49,
+            "ppr": 49
+        },
+        "jeremy ruckert": {
+            "std": 50,
             "half": 50,
-            "ppr": 51
+            "ppr": 50
         },
         "mo alie cox": {
-            "std": 52,
-            "half": 53,
-            "ppr": 55
-        },
-        "cade stover": {
-            "std": 53,
+            "std": 51,
             "half": 52,
-            "ppr": 53
-        },
-        "adam trautman": {
-            "std": 54,
-            "half": 55,
-            "ppr": 54
-        },
-        "drew sample": {
-            "std": 55,
-            "half": 57,
             "ppr": 52
         },
-        "luke farrell": {
-            "std": 56,
+        "josh oliver": {
+            "std": 52,
+            "half": 51,
+            "ppr": 51
+        },
+        "adam trautman": {
+            "std": 53,
+            "half": 55,
+            "ppr": 53
+        },
+        "pharaoh brown": {
+            "std": 54,
             "half": 54,
             "ppr": 57
         },
-        "pharaoh brown": {
-            "std": 57,
-            "half": 56,
-            "ppr": 59
-        },
-        "daniel bellinger": {
-            "std": 58,
+        "cade stover": {
+            "std": 55,
             "half": 58,
             "ppr": 56
         },
+        "luke farrell": {
+            "std": 56,
+            "half": 53,
+            "ppr": 54
+        },
+        "drew sample": {
+            "std": 57,
+            "half": 60,
+            "ppr": 55
+        },
         "durham smythe": {
-            "std": 59,
-            "half": 59,
+            "std": 58,
+            "half": 57,
             "ppr": 58
         },
-        "jared wiley": {
+        "daniel bellinger": {
+            "std": 59,
+            "half": 59,
+            "ppr": 59
+        },
+        "drew ogletree": {
             "std": 60,
             "half": 62,
-            "ppr": 64
+            "ppr": 68
         },
         "ben sinnott": {
             "std": 61,
             "half": 64,
             "ppr": 61
         },
-        "tip reiman": {
+        "jared wiley": {
             "std": 62,
-            "half": 60,
-            "ppr": 62
-        },
-        "charlie kolar": {
-            "std": 63,
-            "half": 63,
-            "ppr": 63
-        },
-        "nick vannett": {
-            "std": 64,
             "half": 65,
-            "ppr": 65
+            "ppr": 66
         },
-        "julian hill": {
-            "std": 65,
+        "john bates": {
+            "std": 63,
             "half": 61,
             "ppr": 60
         },
-        "hunter long": {
-            "std": 66,
-            "half": 69,
-            "ppr": 68
+        "harrison bryant": {
+            "std": 64,
+            "half": 63,
+            "ppr": 65
         },
-        "payne durham": {
-            "std": 67,
-            "half": 67,
+        "tip reiman": {
+            "std": 65,
+            "half": 56,
             "ppr": 67
         },
-        "drew ogletree": {
-            "std": 68,
-            "half": 68,
-            "ppr": 70
-        },
-        "john bates": {
-            "std": 69,
+        "charlie kolar": {
+            "std": 66,
             "half": 66,
-            "ppr": 66
-        },
-        "aj barner": {
-            "std": 70,
-            "half": 72,
-            "ppr": 72
-        },
-        "connor heyward": {
-            "std": 71,
-            "half": 71,
             "ppr": 69
         },
-        "harrison bryant": {
-            "std": 72,
-            "half": 73,
-            "ppr": 73
+        "connor heyward": {
+            "std": 67,
+            "half": 67,
+            "ppr": 63
         },
-        "nate adkins": {
-            "std": 73,
-            "half": 74,
-            "ppr": 75
-        },
-        "charlie woerner": {
-            "std": 74,
+        "nick vannett": {
+            "std": 68,
             "half": 70,
             "ppr": 71
         },
+        "hunter long": {
+            "std": 69,
+            "half": 71,
+            "ppr": 74
+        },
+        "blake whiteheart": {
+            "std": 70,
+            "half": 74,
+            "ppr": 62
+        },
+        "nate adkins": {
+            "std": 71,
+            "half": 75,
+            "ppr": 73
+        },
+        "aj barner": {
+            "std": 72,
+            "half": 72,
+            "ppr": 72
+        },
+        "julian hill": {
+            "std": 73,
+            "half": 68,
+            "ppr": 64
+        },
         "tanner conner": {
-            "std": 75,
+            "std": 74,
             "half": 76,
             "ppr": 77
         },
-        "jake tonges": {
+        "payne durham": {
+            "std": 75,
+            "half": 73,
+            "ppr": 75
+        },
+        "charlie woerner": {
             "std": 76,
-            "half": 75,
-            "ppr": 74
+            "half": 69,
+            "ppr": 70
         },
         "eric tomlinson": {
             "std": 77,
+            "half": 82,
+            "ppr": 80
+        },
+        "jack stoll": {
+            "std": 78,
             "half": 80,
-            "ppr": 82
+            "ppr": 81
         },
         "ross dwelley": {
-            "std": 78,
-            "half": 83,
-            "ppr": 84
-        },
-        "blake whiteheart": {
             "std": 79,
+            "half": 85,
+            "ppr": 88
+        },
+        "jake tonges": {
+            "std": 80,
             "half": 77,
             "ppr": 76
         },
-        "jack stoll": {
-            "std": 80,
-            "half": 81,
-            "ppr": 85
-        },
-        "quintin morris": {
+        "davis allen": {
             "std": 81,
-            "half": 84,
-            "ppr": 87
+            "half": 79,
+            "ppr": 83
         },
-        "ben sims": {
+        "robert tonyan": {
             "std": 82,
-            "half": 86,
-            "ppr": 86
+            "half": 83,
+            "ppr": 84
         },
         "tanner hudson": {
             "std": 83,
-            "half": 85,
-            "ppr": 83
+            "half": 89,
+            "ppr": 82
         },
-        "marcedes lewis": {
+        "quintin morris": {
             "std": 84,
-            "half": 82,
-            "ppr": 81
+            "half": 87,
+            "ppr": 90
         },
-        "brevyn spann ford": {
+        "ben sims": {
             "std": 85,
-            "half": 79,
-            "ppr": 78
-        },
-        "robert tonyan": {
-            "std": 86,
             "half": 90,
             "ppr": 89
         },
-        "parker hesse": {
+        "marcedes lewis": {
+            "std": 86,
+            "half": 84,
+            "ppr": 87
+        },
+        "dallin holker": {
             "std": 87,
+            "half": 86,
+            "ppr": 91
+        },
+        "ko kieft": {
+            "std": 88,
             "half": 88,
+            "ppr": 92
+        },
+        "brevyn spann ford": {
+            "std": 89,
+            "half": 78,
             "ppr": 79
         },
         "jaheim bell": {
-            "std": 88,
-            "half": 93,
-            "ppr": 90
-        },
-        "ko kieft": {
-            "std": 89,
-            "half": 91,
-            "ppr": 92
-        },
-        "chris manhertz": {
             "std": 90,
-            "half": 78,
-            "ppr": 80
-        },
-        "dallin holker": {
-            "std": 91,
-            "half": 87,
-            "ppr": 91
-        },
-        "brady russell": {
-            "std": 92,
             "half": 95,
-            "ppr": 95
-        },
-        "brenden bates": {
-            "std": 93,
-            "half": 96,
             "ppr": 93
         },
-        "davis allen": {
-            "std": 94,
-            "half": 89,
-            "ppr": 94
+        "chris manhertz": {
+            "std": 91,
+            "half": 81,
+            "ppr": 78
+        },
+        "parker hesse": {
+            "std": 92,
+            "half": 93,
+            "ppr": 86
+        },
+        "brady russell": {
+            "std": 93,
+            "half": 94,
+            "ppr": 95
         },
         "jordan franks": {
-            "std": 95,
+            "std": 94,
             "half": 99,
+            "ppr": 94
+        },
+        "brenden bates": {
+            "std": 95,
+            "half": 98,
             "ppr": 96
         },
-        "jordan matthews": {
+        "geoff swaim": {
             "std": 96,
-            "half": 94,
-            "ppr": 97
+            "half": 96,
+            "ppr": 85
         },
-        "mycole pruitt": {
+        "nikola kalinic": {
             "std": 97,
-            "half": 92,
-            "ppr": 99
+            "half": 100,
+            "ppr": 97
         },
         "travis vokolek": {
             "std": 98,
-            "half": 98,
+            "half": 91,
             "ppr": 98
         },
-        "geoff swaim": {
-            "std": 99,
-            "half": 97,
-            "ppr": 88
+        "mycole pruitt": {
+            "half": 92
         },
-        "tanner mclachlan": {
-            "std": 100,
-            "half": 100,
-            "ppr": 103
-        },
-        "stone smartt": {
-            "std": 101,
-            "half": 102,
-            "ppr": 104
-        },
-        "nikola kalinic": {
-            "std": 102,
-            "half": 101,
-            "ppr": 101
-        },
-        "rodney williams": {
-            "std": 103,
-            "half": 106,
-            "ppr": 105
-        },
-        "colson yankoff": {
-            "std": 104,
-            "half": 103,
-            "ppr": 102
-        },
-        "david martin robinson": {
-            "std": 105,
-            "half": 107,
-            "ppr": 106
-        },
-        "ej jenkins": {
-            "std": 106,
-            "half": 105,
-            "ppr": 100
-        },
-        "thomas odukoya": {
-            "std": 107,
-            "half": 108,
-            "ppr": 107
+        "jordan matthews": {
+            "half": 97
         },
         "josiah deguara": {
+            "half": 101
+        },
+        "tanner mclachlan": {
+            "half": 102
+        },
+        "stone smartt": {
+            "half": 103
+        },
+        "colson yankoff": {
             "half": 104
+        },
+        "rodney williams": {
+            "half": 105
+        },
+        "thomas odukoya": {
+            "half": 106
         }
     },
     "QB": {
-        "josh allen": 1,
-        "kyler murray": 2,
+        "kyler murray": 1,
+        "josh allen": 2,
         "jayden daniels": 3,
         "lamar jackson": 4,
         "cj stroud": 5,
@@ -2037,35 +1983,34 @@
         "justin fields": 10,
         "geno smith": 11,
         "brock purdy": 12,
-        "baker mayfield": 13,
-        "anthony richardson": 14,
-        "sam darnold": 15,
-        "caleb williams": 16,
-        "jared goff": 17,
-        "daniel jones": 18,
-        "jordan love": 19,
-        "aaron rodgers": 20,
-        "andy dalton": 21,
+        "anthony richardson": 13,
+        "jared goff": 14,
+        "baker mayfield": 15,
+        "sam darnold": 16,
+        "caleb williams": 17,
+        "jordan love": 18,
+        "daniel jones": 19,
+        "andy dalton": 20,
+        "aaron rodgers": 21,
         "derek carr": 22,
-        "trevor lawrence": 23,
-        "kirk cousins": 24,
+        "kirk cousins": 23,
+        "trevor lawrence": 24,
         "deshaun watson": 25,
         "will levis": 26,
         "matthew stafford": 27,
         "gardner minshew": 28,
         "bo nix": 29,
-        "justin herbert": 30,
-        "tyler huntley": 31,
+        "tyler huntley": 30,
+        "justin herbert": 31,
         "jacoby brissett": 32,
-        "skylar thompson": 33,
-        "malik willis": 34,
+        "malik willis": 33,
+        "skylar thompson": 34,
         "drake maye": 35,
         "taylor heinicke": 36,
-        "tim boyle": 37,
-        "aidan oconnell": 38,
-        "bryce young": 39,
-        "jameis winston": 40,
-        "mason rudolph": 41
+        "aidan oconnell": 37,
+        "jameis winston": 38,
+        "tim boyle": 39,
+        "bryce young": 40
     },
     "K": {
         "brandon aubrey": 1,
@@ -2086,8 +2031,8 @@
         "jake bates": 16,
         "greg zuerlein": 17,
         "brayden narveson": 18,
-        "daniel carlson": 19,
-        "austin seibert": 20,
+        "austin seibert": 19,
+        "daniel carlson": 20,
         "dustin hopkins": 21,
         "eddy pineiro": 22,
         "will reichard": 23,
@@ -2117,8 +2062,8 @@
         "new orleans saints": 13,
         "minnesota vikings": 14,
         "los angeles rams": 15,
-        "philadelphia eagles": 16,
-        "cincinnati bengals": 17,
+        "cincinnati bengals": 16,
+        "philadelphia eagles": 17,
         "detroit lions": 18,
         "indianapolis colts": 19,
         "buffalo bills": 20,
