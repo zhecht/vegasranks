@@ -112,6 +112,16 @@ def getFairValue(ou, method=None):
 		return x
 	return implied
 
+@nfl_blueprint.route('/getBackfields')
+def getBackfields_route():
+	with open(f"{prefix}static/nfl/rbTrends.json") as fh:
+		res = json.load(fh)
+	return jsonify(res)
+
+@nfl_blueprint.route('/backfields')
+def backfields_route():
+	return render_template("backfields.html")
+
 @nfl_blueprint.route('/getVegasRanks')
 def getVegasRanks_route():
 	propArg = request.args.get("prop")
