@@ -140,7 +140,7 @@ def ranks_route():
 
 @nfl_blueprint.route('/analyze')
 def analyze_route():
-	week = "3"
+	week = "4"
 
 	with open(f"{prefix}static/nfl/stats.json") as fh:
 		stats = json.load(fh)
@@ -343,6 +343,8 @@ def getVegas(week):
 	sortedOutputs = {"ALL": []}
 	for team in data:
 		for player in data[team]:
+			if player not in roster[team]:
+				continue
 			pos = roster[team][player]
 			if pos not in sortedOutputs:
 				sortedOutputs[pos] = []
@@ -431,12 +433,15 @@ def getVegas(week):
 def simpleCalcPoints(j):
 	pts = 0
 
+	pts += int(j.get("pass_yd", "0")) * 0.04
+	pts += int(j.get("pass_td", "0")) * 4
 	pts += int(j.get("rush_yd", "0")) * 0.1
 	pts += int(j.get("rush_td", "0")) * 6
 	pts += int(j.get("rec", "0")) * 0.5
 	pts += int(j.get("rec_yd", "0")) * 0.1
 	pts += int(j.get("rec_td", "0")) * 6
 	pts += int(j.get("fumbles_lost", "0")) * -2
+	pts += int(j.get("int", "0")) * -2
 	pts += int(j.get("2pt", "0")) * 2
 	return round(pts, 2)
 

@@ -34440,7 +34440,8 @@
                 "2pt": 0,
                 "fumbles_fum": "0",
                 "fumbles_lost": "0",
-                "fumbles_rec": "1"
+                "fumbles_rec": "1",
+                "rec_td": 1
             },
             "kyle hamilton": {
                 "2pt": 0,
